@@ -1,4 +1,94 @@
 /* =============
-    _____ Section 
+   index
 ============= */
 
+#index {
+    background-color: $light-grey;
+
+
+    #index-hero {
+        img {
+            object-fit: cover;
+            width: 100vw;
+        }
+
+    }
+
+    #index-content {
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        grid-template-areas: ". content .";
+
+
+        >div {
+            padding-top: 20px;
+            grid-area: content;
+
+            h1 {
+                text-align: center;
+                font-size: rem-calc(26);
+
+                @include md {
+                    font-size: rem-calc(30);
+                }
+            }
+
+            p {
+                text-align: center;
+                font-size: rem-calc(18);
+
+                @include md {
+                    font-size: rem-calc(20);
+                }
+            }
+
+            #button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+
+                a {
+                    background-color: $yellow;
+                    color: $black;
+                    border-radius: 16px;
+                    font-weight: 400;
+                    font-size: rem-calc(18);
+                    padding: 13px 20px;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 25%;
+                    font-family: 'Montserrat', sans-serif;
+
+                    @include md {
+                        font-size: rem-calc(20);
+                        padding: 14px 35px;
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(22);
+                        padding: 16px 40px;
+                    }
+
+                    &:hover {
+                        background-color: $dark-grey;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    #popup{
+        background-color: $black;
+         display: none;
+        h1{
+            color: white;
+        }
+    }
+
+}
