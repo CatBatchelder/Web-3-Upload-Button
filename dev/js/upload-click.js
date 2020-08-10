@@ -1,3 +1,10 @@
+
+console.log("helo");
+
+gsap.registerPlugin(DrawSVGPlugin);
+
+gsap.from("#spiral",{duration:5, drawSVG:"0%"});
+
 function showPopup() {
     var x = document.getElementById("popup");
 
