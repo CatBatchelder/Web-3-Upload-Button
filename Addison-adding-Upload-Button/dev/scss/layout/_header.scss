@@ -1,0 +1,44 @@
+/* =============
+    Header
+============= */
+
+header {
+    background-color: $black;
+
+    div {
+        display: grid;
+        grid-template-columns: 80% auto;
+        grid-template-areas: "logo burger";
+
+        #logo-container {
+            grid-area: logo;
+            padding: 20px;
+
+            i {
+                color: $yellow;
+                font-size: rem-calc(24);
+
+                @include md {
+                    font-size: rem-calc(30);
+                }
+            }
+        }
+
+        #burger-container {
+            grid-area: burger;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+
+            i {
+                color: $yellow;
+                font-size: rem-calc(24);
+
+                @include md {
+                    font-size: rem-calc(30);
+                }
+            }
+
+        }
+    }
+}

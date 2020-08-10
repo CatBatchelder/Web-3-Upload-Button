@@ -1,0 +1,1 @@
+$("#spiral-animation").on("click",startAnimation);
