@@ -1,24 +1,24 @@
 
 
-function hideShowPopup() {
-    var x = document.getElementById("popup");
+// function hideShowPopup() {
+//     var x = document.getElementById("popup");
 
-    if (x.style.display === "none") {
+//     if (x.style.display === "none") {
 
-      x.style.display = "block";
+//       x.style.display = "block";
 
-    } else {
+//     } else {
 
-      x.style.display = "none";
-    }
-  }
+//       x.style.display = "none";
+//     }
+//   }
 
-var yellowButton = document.querySelector('#button');
+// var yellowButton = document.querySelector('#button');
 
-window.onclick = function(event){
+// window.onclick = function(event){
 
-    if(event.target == yellowButton){
+//     if(event.target == yellowButton){
         
-        hideShowPopup();
-    }
-}
+//         hideShowPopup();
+//     }
+// }
