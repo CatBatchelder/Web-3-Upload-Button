@@ -10,26 +10,50 @@
 
     #title{
         font-family: 'Cabin Sketch', sans-serif;
-        // text-align: center;
+        //text-align: center;
         margin: 0 auto;
         position: absolute;
         color: white;
-        font-size: rem-calc(50);
-        margin-left: 27%;
-        margin-top: 70px;
+        font-size: rem-calc(28);
+        //margin: auto;
+        //width: 50%;
+        //margin-top: 10%;
+
+        @include md{
+            font-size: rem-calc(40);
+            margin-left: 15%;
+            margin-top: 60px;
+        }
+
+        @include lg{
+            font-size: rem-calc(50);
+            margin-left: 27%;
+            margin-top: 70px;
+        }
+
+        @include xl{
+            margin-top: 40px;
+            margin-left: 31%;
+        }
+        
     }
 
     #index-hero {
-        img {
-            object-fit: cover;
-            width: 100vw;
-            height: 100vh;
-        }
+        // img {
+        //     object-fit: cover;
+        //     width: 100vw;
+        //     height: 100vh;
+        // }
 
-    //     background-image: url('../img/hero.jpeg');
-    //     background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+        background-image: url('../img/hero.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+
+        @include md{
+            height: 900px;
+        }
 
     }
 
@@ -37,6 +61,10 @@
         display: grid;
         grid-template-columns: 5% auto 5%;
         grid-template-areas: ". content .";
+
+        @include lg{
+            grid-template-columns: auto 800px auto;
+        }
 
 
         >div {
@@ -99,21 +127,6 @@
 
         }
 
-    }
-
-    #popup{
-        background-color: $black;
-        height: 100vh;
-        width: 100vw;
-        position: absolute;
-        display: none;
-        // margin-top: -150vh;
-
-        h1{
-            color: white;
-            text-align: center;
-            margin: 100px 0 0 0;
-        }
     }
 
 }
