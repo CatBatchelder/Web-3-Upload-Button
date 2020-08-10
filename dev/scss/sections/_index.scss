@@ -4,13 +4,32 @@
 
 #index {
     background-color: $light-grey;
+    display: grid;
 
+
+
+    #title{
+        font-family: 'Cabin Sketch', sans-serif;
+        // text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        color: white;
+        font-size: rem-calc(50);
+        margin-left: 27%;
+        margin-top: 70px;
+    }
 
     #index-hero {
         img {
             object-fit: cover;
             width: 100vw;
+            height: 100vh;
         }
+
+    //     background-image: url('../img/hero.jpeg');
+    //     background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 
     }
 
@@ -78,16 +97,22 @@
                 }
             }
 
-
         }
 
     }
 
     #popup{
         background-color: $black;
-         display: none;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        display: none;
+        // margin-top: -150vh;
+
         h1{
             color: white;
+            text-align: center;
+            margin: 100px 0 0 0;
         }
     }
 

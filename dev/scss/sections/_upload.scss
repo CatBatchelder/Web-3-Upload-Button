@@ -1,0 +1,156 @@
+   /* Start state */
+   .animated-modal {
+    max-width: 550px;
+    border-radius: 4px;
+    overflow: hidden;
+    
+    transform: translateY(-50px);
+    transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+    transform: translateY(-50px);
+    opacity: 0;
+    
+    transition-property: transform, opacity;
+    transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+    transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+    transition-delay: .3s;
+}
+
+
+/**/
+body {
+    background-color:transparent;
+    // text-align:center;
+    color: #777;
+  }
+  
+  #spiral-animation {
+    width:100px;
+    margin:30px auto;
+    background-color: transparent;
+    display: inline-block;
+  }
+  
+  #spiral-animation, #spiral-animation a {
+    background-image: none;
+    // border: 1px solid #555;
+  }
+  #spiral-animation a {
+    background-color: transparent;
+  }
+   
+
+
+// body{
+//     background-color: #d4c2f2;
+//   }
+  
+//   .upload{
+//     text-align: center;
+//     color: #fff;
+//     text-shadow: 0 2px 0 hsla(0,0%,0%,.075);
+//     font-size: 30px;
+//     background: {
+//         image: linear-gradient(to bottom, #b6c5cc 50%, #c0e8b9 50%);
+//         position: 0% 0%;
+//         size: 230%;
+//     }
+//     background-color: #b6c5cc;
+//     background-repeat: no-repeat;
+//     border: 6px solid #fff;
+//     border-radius: 50px;
+//     box-shadow: inset 0 2px 0 hsla(0,0%,0%,.1), 0 3px 0 hsla(0,0%,0%,.075);
+//     cursor: pointer;
+//     height: 80px;
+//     left: 50%;
+//     margin: -43px;
+//     margin-top: -100px;
+//     position: absolute;
+//     top: 50%;
+//     width: 80px;
+//     transition: background 3s ease-in-out;
+//   }
+  
+//   .uploading{
+//     background-position: 0% 100%;
+//   }
+  
+//   span{
+//     margin-top: 16px;
+//     margin-left: -3px;
+//     transition: 0.1s 2s ease-in-out;
+//   }
+  
+//   .ok{
+//     position: absolute;
+//     left: 22px;
+//     top: 50px;
+//     opacity: 0;
+//   }
+  
+//   .bounce{
+//     animation: bounce 0.3s ease 2.5s forwards;
+//   }
+  
+//   .arrow-out{
+//     top: -20px;
+//     visibility: hidden;
+//   }
+  
+//   .button{
+//     position: absolute;
+//     width: 120px;
+//     height: 30px;
+//     background-color: #fff;
+//     top: 50%;
+//     left: 50%;
+//     margin-left: -60px;
+//     margin-top: 10px;
+//     border-radius: 5px;
+//     box-shadow: 0 3px 0 hsla(0,0%,0%,.075);
+//     text-align: center;
+//     line-height: 30px;
+//     font-size: 16px;
+//     text-transform: uppercase;
+//     color: #888;
+//     cursor: pointer;
+//     transition: 0.2s;
+    
+//     &:active{
+//       box-shadow: 0 0 0;
+//       margin-top: 12px;
+//      }
+//   }
+  
+  
+//   @keyframes bounce{
+//     0%{
+//       top: 50px;
+//       opacity: 0;
+//     }
+//     80%{
+//       top: -5px;
+//     }
+//     100%{
+//       top: 0;
+//       opacity: 1;
+//     }
+//   }
