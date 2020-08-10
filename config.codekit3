@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/hero.jpeg": {
+		"ft": 16384,
+		"iS": 112121,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -94,6 +105,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/upload-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/upload-click-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -248,7 +270,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/_styles.css",
+		"oAP": "/deploy/css/styles.css",
 		"oF": 3,
 		"oS": 0,
 		"sct": 0
@@ -702,7 +724,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1033,7 +1055,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1781,7 +1803,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

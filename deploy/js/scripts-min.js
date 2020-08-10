@@ -1,0 +1,1 @@
+function showPopup(){var o=document.getElementById("popup");"none"===o.style.display?o.style.display="block":o.style.display="none"}var yellowButton=document.querySelector("#button");window.onclick=function(o){o.target==yellowButton&&showPopup()};
