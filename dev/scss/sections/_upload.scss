@@ -44,9 +44,12 @@ body {
   
   #spiral-animation {
     width:100px;
-    margin:30px auto;
+    margin:0px auto 20px auto;
     background-color: transparent;
-    display: inline-block;
+    // display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   #spiral-animation, #spiral-animation a {
@@ -54,6 +57,36 @@ body {
     // border: 1px solid #555;
   }
   #spiral-animation a {
+    background-color: transparent;
+  }
+
+
+
+  #yellow-guy {
+    width:120px;
+    margin:-300px auto 20px auto;
+    background-color: transparent;
+    // display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include md{
+      margin:-470px auto 20px auto;
+      width:200px;
+    }
+
+    @include lg{
+      margin:-470px auto 20px auto;
+      width:200px;
+    }
+  }
+  
+  #yellow-guy , #yellow-guy  a {
+    background-image: none;
+    // border: 1px solid #555;
+  }
+  #yellow-guy  a {
     background-color: transparent;
   }
    

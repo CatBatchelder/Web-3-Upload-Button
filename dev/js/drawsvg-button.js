@@ -14,7 +14,7 @@ var uploadAnimationTimeLine = gsap.timeline({
 //draw svg timeline
 uploadAnimationTimeLine.addLabel("spiralFillsIn")
                         .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
-                        .to("check", {opacity:1}, "playsvg")
+                        .to("#check", {opacity:1}, "playsvg")
                         .addPause()
                         .addLabel("fancyBoxUploadCompletePopsUp")
                         .to("button", {duration: 1, opacity:1}, "playUpload");

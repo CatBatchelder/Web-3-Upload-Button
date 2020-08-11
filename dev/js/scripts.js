@@ -1,4 +1,5 @@
 // @codekit-prepend "drawsvg-button.js";
+// @codekit-prepend "drawsvg-yellowguy.js";
 // @codekit-prepend "popup/upload-click.js";
 // @codekit-prepend "popup/popup.js";
 // @codekit-prepend "scroll-trigger.js";

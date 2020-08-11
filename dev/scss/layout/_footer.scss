@@ -1,3 +1,112 @@
 /* =============
     Footer
 ============= */
+
+/* =============
+    Footer
+============= */
+footer {
+    background-color: black;
+    color: black;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+
+    @include md {
+        grid-template-columns: auto 768px auto;
+    }
+
+    @include lg {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #footer-content {
+        grid-area: footer;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+        @include md {
+            display: grid;
+            grid-template-areas: "band band"
+                "header icons";
+            grid-template-columns: 60% auto;
+            grid-template-rows: repeat(2/1fr);
+        }
+
+        >div {
+            background-color: black;
+            grid-area: band;
+            height: 10vh;
+            width: 100%;
+        }
+
+        h3 {
+            padding-top: 50px;
+            color: white;
+            font-family: Montserrat;
+            font-size: 1.25rem;
+            font-weight: 300;
+            grid-area: header;
+            margin: 20px 10px 20px 10px;
+
+            @include md {
+                font-size: 1rem;
+                margin: 10px 10px 20px 10px;
+                text-align: left;
+                padding: 30px 0 0 30px;
+            }
+
+            @include lg {
+                font-size: 1.2rem;
+                margin: 30px 10px 0px 20px;
+            }
+        }
+
+        h4 {
+            color: white;
+            font-family: Montserrat;
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 5px 10px 20px 10px;
+        }
+
+        span{
+            font-weight: bold;
+        }
+
+        ul {
+            display: flex;
+            font-size: 1rem;
+            grid-area: icons;
+            justify-content: center;
+
+            @include md {
+                justify-content: flex-end;
+                padding: 30px 30px 0 0px;
+                font-size: 1rem;
+            }
+
+            @include lg {
+                font-size: 1.4rem;
+                margin: 50px 10px 0px 40px;
+                padding: 0px 0px 0 0px;
+            }
+
+            li {
+                margin: 0px 10px;
+
+                a:link,
+                a:visited {
+                    color: $yellow;
+                    font-size: rem-calc(30);
+                    transition: 0.25s;
+                }
+
+                a:hover,
+                a:active {
+                    color: $dark-grey;
+                }
+            }
+        }
+    }
+}

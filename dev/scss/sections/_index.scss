@@ -3,37 +3,31 @@
 ============= */
 
 #index {
-    background-color: $light-grey;
     display: grid;
-
-
 
     #title {
         font-family: 'Cabin Sketch', sans-serif;
-        //text-align: center;
-        margin: 0 auto;
+        text-align: center;
+        margin: 5% 0 0 0;
         position: absolute;
         color: white;
-        font-size: rem-calc(28);
-        //margin: auto;
-        //width: 50%;
-        //margin-top: 10%;
+        font-size: rem-calc(35);
+        text-align: center;
+        width: 100%;
+
 
         @include md {
-            font-size: rem-calc(40);
-            margin-left: 15%;
-            margin-top: 60px;
+            font-size: rem-calc(45);
+            margin-top: 70px;
         }
 
         @include lg {
             font-size: rem-calc(50);
-            margin-left: 27%;
-            margin-top: 70px;
+            margin-top: 90px;
         }
 
         @include xl {
-            margin-top: 40px;
-            margin-left: 31%;
+            margin-top: 100px;
         }
 
     }
@@ -58,9 +52,12 @@
     }
 
     #index-content {
+        background-color: $light-grey;
         display: grid;
         grid-template-columns: 5% auto 5%;
         grid-template-areas: ". content .";
+        padding-top: 50px;
+        padding-bottom: 50px;
 
         @include lg {
             grid-template-columns: auto 800px auto;
@@ -138,34 +135,45 @@
 ============= */
 
 #artists{
-
-h1{
-    padding-left: 10%;
-}
+// h1{
+//     padding-left: 10%;
+//     margin: -40px 0 20px 0;
+// }
 
     #artists-headline {
         background-color: $dark-grey;
         color: white;
         display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "arrow content";
+        grid-template-columns: 80% auto;
+        grid-template-areas: "content" "arrow";
+        margin-bottom: 50px;
+        padding: 50px 0 50px 100px;
+
+        @include md{
+            grid-template-areas: "content arrow";
+        }
 
         #artist-arrow {
             grid-area: arrow;
             display: flex;
-            justify-content: flex-start;
+            // justify-content: flex-start;
             align-items: center;
-            padding-left: 25%;
+            padding-right: 100%;
             font-size: rem-calc(40);
             color: $yellow;
+            justify-content: center;
 
         }
 
         #artist-headline-text {
             grid-area: content;
-            text-align: right;
-            padding-right: 25%;
-            padding-left: 10%;
+            text-align: left;
+            // padding-right: 25%;
+            padding-left: 0%;
+
+            @include md{
+                padding-left: 10%;
+            }
 
             h3 {
                 font-size: rem-calc(24);

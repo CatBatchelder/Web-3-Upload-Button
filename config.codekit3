@@ -152,6 +152,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/drawsvg-yellowguy.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/drawsvg-yellowguy-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/popup/popup.js": {
 		"bF": 0,
 		"ft": 64,
@@ -207,7 +218,7 @@
 		"oAP": "/dev/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/base/_normalize.scss": {
 		"aP": 0,
@@ -220,7 +231,7 @@
 		"oAP": "/dev/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/base/_typography.scss": {
 		"aP": 0,
@@ -233,7 +244,7 @@
 		"oAP": "/dev/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/components/_buttons.scss": {
 		"aP": 0,
@@ -246,7 +257,7 @@
 		"oAP": "/dev/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/components/_fancy-box.scss": {
 		"aP": 0,
@@ -259,7 +270,7 @@
 		"oAP": "/dev/scss/components/_fancy-box.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/components/_forms.scss": {
 		"aP": 0,
@@ -272,7 +283,7 @@
 		"oAP": "/dev/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/components/_navigation.scss": {
 		"aP": 0,
@@ -285,7 +296,7 @@
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
@@ -298,7 +309,7 @@
 		"oAP": "/dev/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
@@ -311,7 +322,7 @@
 		"oAP": "/dev/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/layout/_footer.scss": {
 		"aP": 0,
@@ -324,7 +335,7 @@
 		"oAP": "/dev/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/layout/_header.scss": {
 		"aP": 0,
@@ -337,7 +348,7 @@
 		"oAP": "/dev/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/sections/_index.scss": {
 		"aP": 0,
@@ -350,7 +361,7 @@
 		"oAP": "/dev/scss/sections/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/sections/_upload.scss": {
 		"aP": 0,
@@ -363,7 +374,7 @@
 		"oAP": "/dev/scss/sections/_upload.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
@@ -376,7 +387,7 @@
 		"oAP": "/deploy/css/styles.css",
 		"oF": 3,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		}
 	},
 "hooks": [
@@ -1655,7 +1666,7 @@
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": "{'allowAsStatement': false}"
+			"optionString": ""
 			},
 		"no-warning-comments": {
 			"active": 0,
@@ -2425,7 +2436,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
