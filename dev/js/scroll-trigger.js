@@ -28,7 +28,7 @@ gsap.from("#artist-arrow", {duration:1, alpha:0, yPercent:-100,
 
     var pictureTimelineG2 = gsap.timeline({});
 
-    pictureTimelineG2.from("#g2-img",{duration:1, alpha:0, xPercent: 20}, "start")
+    pictureTimelineG2.from("#g2-img",{duration:1, alpha:0, xPercent: 200}, "start")
                     .from("#g2-text",{duration:1, alpha:0}, "start");
     
     ScrollTrigger.create({
