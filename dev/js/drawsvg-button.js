@@ -11,10 +11,11 @@ var uploadAnimationTimeLine = gsap.timeline({
     paused: true
 });
 
+
 //draw svg timeline
 uploadAnimationTimeLine.addLabel("spiralFillsIn")
                         .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
-                        .to("#check", {opacity:1}, "playsvg")
+                        .from("#check", {duration:1, opacity:0})
                         .addPause()
                         .addLabel("fancyBoxUploadCompletePopsUp")
                         .to("button", {duration: 1, opacity:1}, "playUpload");
@@ -41,7 +42,7 @@ uploadAnimationTimeLine.addLabel("spiralFillsIn")
 
 //$("#spiral").on("click", playUploadAnimation);
 
-$("spiral-animation").click(function(){
+$("#spiral-animation").click(function(){
     //if an animation is currently running reverse it.
     if(uploadAnimationTimeLine) {
         uploadAnimationTimeLine.play();
@@ -52,3 +53,17 @@ $("spiral-animation").click(function(){
     //play the animation
     this.animation.play(0)
   })
+
+  $("#index-content #button").on("click", hideShowPopup);
+
+
+//   $("#spiral-animation").on("mouseenter", function(){
+//     //console.log("mouse enter");
+//     //console.log(canYouSeeTheMenu + " menu visible");
+//     if(canYouSeeTheMenu === false){
+//         console.log("burger to arrow");
+//         burgerAnimationTimeLine.play("burgerToDownArrow");
+//     }else{
+//         burgerAnimationTimeLine.play("xToUpArrow");
+//     }
+// })
