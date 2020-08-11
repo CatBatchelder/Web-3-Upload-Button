@@ -455,6 +455,9 @@ header div #burger-container i {
 #index {
   background-color: #E4E4E4;
   display: grid;
+  /* =============
+     artist section
+  ============= */
 }
 #index #title {
   font-family: "Cabin Sketch", sans-serif;
@@ -561,6 +564,153 @@ header div #burger-container i {
 }
 #index #index-content > div #button a:hover {
   background-color: #ACACAC;
+}
+#index #artists h1 {
+  padding-left: 10%;
+}
+#index #artists #artists-headline {
+  background-color: #ACACAC;
+  color: white;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "arrow content";
+}
+#index #artists #artists-headline #artist-arrow {
+  grid-area: arrow;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25%;
+  font-size: 2.5rem;
+}
+#index #artists #artists-headline #artist-headline-text {
+  grid-area: content;
+  text-align: right;
+  padding-right: 25%;
+  padding-left: 10%;
+}
+#index #artists #artists-headline #artist-headline-text h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+#index #artists #artists-headline #artist-headline-text h5 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+#index #artists-testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". content .";
+  background-color: white;
+}
+@media (min-width: 1440px) {
+  #index #artists-testimonials {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#index #artists-testimonials ul {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: repeat(3, 1 fr);
+  grid-template-areas: " g1" "g2" "g3";
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul {
+    gap: 60px;
+  }
+}
+#index #artists-testimonials ul li:nth-child(1) {
+  grid-area: g1;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(1) {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "img text";
+  }
+}
+#index #artists-testimonials ul li:nth-child(1) img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(1) img {
+    grid-area: img;
+  }
+}
+#index #artists-testimonials ul li:nth-child(1) p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(1) p {
+    grid-area: text;
+    padding: 0 40px;
+  }
+}
+#index #artists-testimonials ul li:nth-child(2) {
+  grid-area: g2;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(2) {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "text img";
+  }
+}
+#index #artists-testimonials ul li:nth-child(2) img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(2) img {
+    grid-area: img;
+  }
+}
+#index #artists-testimonials ul li:nth-child(2) p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(2) p {
+    grid-area: text;
+    padding: 0 40px;
+  }
+}
+#index #artists-testimonials ul li:nth-child(3) {
+  grid-area: g3;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(3) {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "img text";
+  }
+}
+#index #artists-testimonials ul li:nth-child(3) img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(3) img {
+    grid-area: img;
+  }
+}
+#index #artists-testimonials ul li:nth-child(3) p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+}
+@media (min-width: 768px) {
+  #index #artists-testimonials ul li:nth-child(3) p {
+    grid-area: text;
+    padding: 0 40px;
+  }
 }
 
 /* Start state */

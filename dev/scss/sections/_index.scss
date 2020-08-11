@@ -8,7 +8,7 @@
 
 
 
-    #title{
+    #title {
         font-family: 'Cabin Sketch', sans-serif;
         //text-align: center;
         margin: 0 auto;
@@ -19,23 +19,23 @@
         //width: 50%;
         //margin-top: 10%;
 
-        @include md{
+        @include md {
             font-size: rem-calc(40);
             margin-left: 15%;
             margin-top: 60px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(50);
             margin-left: 27%;
             margin-top: 70px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 40px;
             margin-left: 31%;
         }
-        
+
     }
 
     #index-hero {
@@ -51,7 +51,7 @@
         background-size: cover;
         height: 600px;
 
-        @include md{
+        @include md {
             height: 900px;
         }
 
@@ -62,7 +62,7 @@
         grid-template-columns: 5% auto 5%;
         grid-template-areas: ". content .";
 
-        @include lg{
+        @include lg {
             grid-template-columns: auto 800px auto;
         }
 
@@ -94,6 +94,10 @@
                 justify-content: center;
                 align-items: center;
                 padding: 20px;
+                // h2{
+                //     display: none;
+                // }
+
 
                 a {
                     background-color: $yellow;
@@ -129,4 +133,180 @@
 
     }
 
+    /* =============
+   artist section
+============= */
+
+#artists{
+
+h1{
+    padding-left: 10%;
+}
+
+    #artists-headline {
+        background-color: $dark-grey;
+        color: white;
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "arrow content";
+
+        #artist-arrow {
+            grid-area: arrow;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 25%;
+            font-size: rem-calc(40);
+
+        }
+
+        #artist-headline-text {
+            grid-area: content;
+            text-align: right;
+            padding-right: 25%;
+            padding-left: 10%;
+
+            h3 {
+                font-size: rem-calc(24);
+                font-weight: 400;
+            }
+
+            h5 {
+                font-size: rem-calc(18);
+                font-weight: 400;
+            }
+        }
+    }
+
+}
+
+#artists-testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". content .";
+    background-color: white;
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    ul {
+        grid-area: content;
+        display: grid;
+        grid-template-rows: repeat(3, 1 fr);
+        grid-template-areas: " g1""g2""g3";
+        gap: 30px;
+
+        @include md{
+            gap: 60px;
+        }
+
+        li {
+            // display: grid;
+            // grid-template-columns: 15px auto 15px;
+            // grid-template-areas: ". content .";
+
+            // >div{
+            //     grid-area: content;
+            // }
+        }
+
+        li:nth-child(1) {
+            grid-area: g1;
+            //display: grid;
+            //grid-template-rows: 80% auto;
+            //grid-template-areas: "img text";
+
+            @include md {
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas: "img text";
+            }
+
+            img {
+                @include md {
+                    grid-area: img;
+                    
+                }
+                width: 100%;
+            }
+
+            p {
+
+                @include md {
+                    grid-area: text;
+                    padding: 0 40px;
+                }
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: rem-calc(18);
+            }
+
+        }
+
+        li:nth-child(2) {
+            grid-area: g2;
+            @include md {
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas: "text img";
+            }
+
+            img {
+                @include md {
+                    grid-area: img;
+                }
+                width: 100%;
+            }
+
+            p {
+
+                @include md {
+                    grid-area: text;
+                    padding: 0 40px;
+                    
+                }
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: rem-calc(18);
+            }
+        }
+
+        li:nth-child(3) {
+            grid-area: g3;
+            @include md {
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas: "img text";
+            }
+
+            img {
+                @include md {
+                    grid-area: img;
+                    
+                }
+                width: 100%;
+            }
+
+            p {
+
+                @include md {
+                    grid-area: text;
+                    padding: 0 40px;
+                }
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: rem-calc(18);
+            }
+        }
+    }
+}
 }

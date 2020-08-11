@@ -12,9 +12,12 @@ var uploadAnimationTimeLine = gsap.timeline({
 });
 
 //draw svg timeline
-uploadAnimationTimeLine.from("#spiral",{duration:5, drawSVG:"0%"})
-                        .to("check", {opacity:1});
-                        // .to("button", {opacity:1});
+uploadAnimationTimeLine.addLabel("spiralFillsIn")
+                        .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
+                        .to("check", {opacity:1}, "playsvg")
+                        .addPause()
+                        .addLabel("fancyBoxUploadCompletePopsUp")
+                        .to("button", {duration: 1, opacity:1}, "playUpload");
 
 //$("#spiral-animation").on("click", uploadAnimationTimeLine.play());
 
@@ -41,7 +44,7 @@ uploadAnimationTimeLine.from("#spiral",{duration:5, drawSVG:"0%"})
 $("spiral-animation").click(function(){
     //if an animation is currently running reverse it.
     if(uploadAnimationTimeLine) {
-        uploadAnimationTimeLine.play("exit");
+        uploadAnimationTimeLine.play();
     }
     
     //set the currentAnimation to whatever this button's assigned animation is

@@ -19,6 +19,39 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/g1.jpg": {
+		"ft": 16384,
+		"iS": 60285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/g1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/g2.jpg": {
+		"ft": 16384,
+		"iS": 50367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/g2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/g3.jpg": {
+		"ft": 16384,
+		"iS": 43228,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/g3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/hero.jpeg": {
 		"ft": 16384,
 		"iS": 112121,
@@ -152,17 +185,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/upload-click.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/upload-click-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -211,6 +233,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_fancy-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_fancy-box.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
