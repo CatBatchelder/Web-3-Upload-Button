@@ -15,10 +15,12 @@ var uploadAnimationTimeLine = gsap.timeline({
 //draw svg timeline
 uploadAnimationTimeLine.addLabel("spiralFillsIn")
                         .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
-                        .from("#check", {duration:1, opacity:0})
-                        .addPause()
-                        .addLabel("fancyBoxUploadCompletePopsUp")
-                        .to("button", {duration: 1, opacity:1}, "playUpload");
+                        .from("#check", {duration:1, opacity:0}, "playUpload")
+                        // .addPause()
+                        // .addLabel("fancyBoxUploadCompletePopsUp")
+                        //.to("button", {duration: 1, opacity:1, display:'block', autoAlpha: 1}, "playUpload");
+                        //.to("button h2", {duration: 1, opacity:1, autoAlpha: 1}, "playUpload");
+                        .to("#button h2", {duration: 1, display:'block'}, "playUpload");
 
 //$("#spiral-animation").on("click", uploadAnimationTimeLine.play());
 
@@ -46,6 +48,8 @@ $("#spiral-animation").click(function(){
     //if an animation is currently running reverse it.
     if(uploadAnimationTimeLine) {
         uploadAnimationTimeLine.play();
+    }else{
+        uploadAnimationTimeLine.play();
     }
     
     //set the currentAnimation to whatever this button's assigned animation is
@@ -54,8 +58,41 @@ $("#spiral-animation").click(function(){
     this.animation.play(0)
   })
 
-  $("#index-content #button").on("click", hideShowPopup);
+  //$("#index-content #button").on("click", hideShowPopup);
 
+  var arrowMovingTimeLine = gsap.timeline({
+    paused: true
+});
+
+// gsap.set("right-arrow", {
+//     transformOrigin: "center right"
+// });
+
+//draw svg timeline
+arrowMovingTimeLine.to("#arrow-line",{duration:.5, rotation: 360}, "start")
+                    .to("#right-arrow",{duration:.5, alpha: 0}, "start")
+                    .to("#left-arrow",{duration:.5, alpha:0}, "start");
+
+
+
+  $("#spiral-animation").on("mouseenter", function(){
+    //console.log("mouse enter");
+    //console.log(canYouSeeTheMenu + " menu visible");
+    if(arrowMovingTimeLine){
+        //console.log("burger to arrow");
+        arrowMovingTimeLine.play();
+    }else(
+        arrowMovingTimeLine.reverse()
+    )
+})
+
+$("#spiral-animation").on("mouseleave", function(){
+    if(arrowMovingTimeLine){
+        //console.log("arrow to burger");
+        arrowMovingTimeLine.reverse();
+        
+    }
+})
 
 //   $("#spiral-animation").on("mouseenter", function(){
 //     //console.log("mouse enter");
