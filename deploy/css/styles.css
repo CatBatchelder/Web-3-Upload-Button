@@ -543,7 +543,7 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 20px;
-        color: black; }
+        color: white; }
         #index #index-content > div #button h2 {
           display: none; }
         #index #index-content > div #button a {
@@ -714,8 +714,7 @@ footer {
 
 /**/
 body {
-  background-color: transparent;
-  color: #777; }
+  background-color: transparent; }
 
 #spiral-animation {
   width: 100px;

@@ -17,7 +17,7 @@ uploadAnimationTimeLine.addLabel("spiralFillsIn")
                         // .from("#arrow-line, #left-arrow, #right-arrow", {duration:1, opacity:0}, "playUpload")
                         .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
                         .from("#check", {duration:1, opacity:0}, "playUpload")
-                        .from("#check", {duration:1, rgb("107, 185, 25")}, "playUpload")
+                        .from(".done", {duration:1, rgb('107, 185, 25')}, "playUpload")
                         // .addPause()
                         // .addLabel("fancyBoxUploadCompletePopsUp")
                         //.to("button", {duration: 1, opacity:1, display:'block', autoAlpha: 1}, "playUpload");
