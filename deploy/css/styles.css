@@ -399,7 +399,6 @@ header {
 ============= */
 footer {
   background-color: black;
-  color: black;
   padding: 0px 0px 50px 0px;
   text-align: center; }
   @media (min-width: 768px) {
@@ -413,14 +412,9 @@ footer {
     @media (min-width: 768px) {
       footer #footer-content {
         display: grid;
-        grid-template-areas: "band band" "header icons";
+        grid-template-areas: "header icons";
         grid-template-columns: 60% auto;
-        grid-template-rows: repeat(2/1fr); } }
-    footer #footer-content > div {
-      background-color: black;
-      grid-area: band;
-      height: 10vh;
-      width: 100%; }
+        grid-template-rows: repeat(1/1fr); } }
     footer #footer-content h3 {
       padding-top: 50px;
       color: white;
@@ -434,12 +428,13 @@ footer {
           font-size: 1rem;
           margin: 10px 10px 20px 10px;
           text-align: left;
-          padding: 30px 0 0 30px; } }
+          padding: 40px 0 0 30px; } }
       @media (min-width: 1025px) {
         footer #footer-content h3 {
           font-size: 1.2rem;
           margin: 30px 10px 0px 20px; } }
     footer #footer-content h4 {
+      padding-top: 15px;
       color: white;
       font-family: Montserrat;
       font-size: 1.2rem;
@@ -451,7 +446,8 @@ footer {
       display: flex;
       font-size: 1rem;
       grid-area: icons;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       @media (min-width: 768px) {
         footer #footer-content ul {
           justify-content: flex-end;
