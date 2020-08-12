@@ -14,6 +14,7 @@ var uploadAnimationTimeLine = gsap.timeline({
 
 //draw svg timeline
 uploadAnimationTimeLine.addLabel("spiralFillsIn")
+                        // .from("#arrow-line, #left-arrow, #right-arrow", {duration:1, opacity:0}, "playUpload")
                         .from("#spiral",{duration:5, drawSVG:"0%"}, "playsvg")
                         .from("#check", {duration:1, opacity:0}, "playUpload")
                         // .addPause()
@@ -93,14 +94,3 @@ $("#spiral-animation").on("mouseleave", function(){
         
     }
 })
-
-//   $("#spiral-animation").on("mouseenter", function(){
-//     //console.log("mouse enter");
-//     //console.log(canYouSeeTheMenu + " menu visible");
-//     if(canYouSeeTheMenu === false){
-//         console.log("burger to arrow");
-//         burgerAnimationTimeLine.play("burgerToDownArrow");
-//     }else{
-//         burgerAnimationTimeLine.play("xToUpArrow");
-//     }
-// })
