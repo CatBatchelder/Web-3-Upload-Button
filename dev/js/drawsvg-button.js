@@ -21,7 +21,9 @@ uploadAnimationTimeLine.addLabel("spiralFillsIn")
                         // .addLabel("fancyBoxUploadCompletePopsUp")
                         //.to("button", {duration: 1, opacity:1, display:'block', autoAlpha: 1}, "playUpload");
                         //.to("button h2", {duration: 1, opacity:1, autoAlpha: 1}, "playUpload");
-                        .to("#button h2", {duration: 1, display:'block'}, "playUpload");
+                        .to("#button h2", {duration: 1, display:'block'}, "playUpload")
+                        .to("#spiral", {duration:1, stroke: "#32CD32"}, "playUpload")
+                        .to("#circle", {duration:1, stroke: "#32CD32"}, "playUpload");
 
 //$("#spiral-animation").on("click", uploadAnimationTimeLine.play());
 
