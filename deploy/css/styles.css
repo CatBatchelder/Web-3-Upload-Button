@@ -3,8 +3,7 @@
 ============= */
 /* ---------------- Font Sizing ---------------- */
 html {
-  font-size: 100%;
-}
+  font-size: 100%; }
 
 /* ---------------- Media Queries ---------------- */
 /* =============
@@ -21,8 +20,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -30,15 +28,13 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block;
-}
+  display: block; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -46,8 +42,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -61,8 +56,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -72,8 +66,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -81,8 +74,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -94,16 +86,14 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -115,15 +105,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -134,16 +122,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -151,8 +136,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
    ========================================================================== */
@@ -172,8 +156,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -182,8 +165,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -192,46 +174,41 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -251,60 +228,53 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-  height: auto;
-}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -314,8 +284,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -323,15 +292,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
    ========================================================================== */
@@ -339,63 +306,51 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* =============
     Base
 ============= */
 figure {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 ul {
   padding: 0;
-  margin: 0;
-}
-ul li {
-  list-style: none;
-}
+  margin: 0; }
+  ul li {
+    list-style: none; }
 
 .grid-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". container .";
-}
-@media (min-width: 1440px) {
-  .grid-container {
-    grid-template-columns: auto 1440px auto;
-  }
-}
-.grid-container > div {
-  grid-area: container;
-}
+  grid-template-areas: ". container ."; }
+  @media (min-width: 1440px) {
+    .grid-container {
+      grid-template-columns: auto 1440px auto; } }
+  .grid-container > div {
+    grid-area: container; }
 
 /* =============
     Typography
 ============= */
 h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; }
 
 h1 {
-  font-family: "Cabin Sketch", sans-serif;
-  font-weight: 700;
-}
+  font-family: 'Cabin Sketch', sans-serif;
+  font-weight: 700; }
 
 p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-}
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
 
 /* =============
     Buttons
@@ -411,42 +366,31 @@ p {
 ============= */
 header {
   background-color: #000;
-  position: sticky;
-}
-header div {
-  display: grid;
-  grid-template-columns: 80% auto;
-  grid-template-areas: "logo burger";
-}
-header div #logo-container {
-  grid-area: logo;
-  padding: 20px;
-}
-header div #logo-container i {
-  color: #FFE103;
-  font-size: 1.5rem;
-}
-@media (min-width: 768px) {
-  header div #logo-container i {
-    font-size: 1.875rem;
-  }
-}
-header div #burger-container {
-  grid-area: burger;
-  padding: 20px;
-  display: flex;
-  justify-content: flex-end;
-}
-header div #burger-container i {
-  color: #FFE103;
-  font-size: 1.5rem;
-}
-@media (min-width: 768px) {
-  header div #burger-container i {
-    font-size: 1.875rem;
-  }
-}
-
+  position: sticky; }
+  header div {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-areas: "logo burger"; }
+    header div #logo-container {
+      grid-area: logo;
+      padding: 20px; }
+      header div #logo-container i {
+        color: #FFE103;
+        font-size: 1.5rem; }
+        @media (min-width: 768px) {
+          header div #logo-container i {
+            font-size: 1.875rem; } }
+    header div #burger-container {
+      grid-area: burger;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end; }
+      header div #burger-container i {
+        color: #FFE103;
+        font-size: 1.5rem; }
+        @media (min-width: 768px) {
+          header div #burger-container i {
+            font-size: 1.875rem; } }
 /* =============
     Footer
 ============= */
@@ -457,101 +401,77 @@ footer {
   background-color: black;
   color: black;
   padding: 0px 0px 50px 0px;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  footer {
-    grid-template-columns: auto 768px auto;
-  }
-}
-@media (min-width: 1025px) {
-  footer {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-footer #footer-content {
-  grid-area: footer;
-}
-@media (min-width: 768px) {
+  text-align: center; }
+  @media (min-width: 768px) {
+    footer {
+      grid-template-columns: auto 768px auto; } }
+  @media (min-width: 1025px) {
+    footer {
+      grid-template-columns: auto 1200px auto; } }
   footer #footer-content {
-    display: grid;
-    grid-template-areas: "band band" "header icons";
-    grid-template-columns: 60% auto;
-    grid-template-rows: repeat(2/1fr);
-  }
-}
-footer #footer-content > div {
-  background-color: black;
-  grid-area: band;
-  height: 10vh;
-  width: 100%;
-}
-footer #footer-content h3 {
-  padding-top: 50px;
-  color: white;
-  font-family: Montserrat;
-  font-size: 1.25rem;
-  font-weight: 300;
-  grid-area: header;
-  margin: 20px 10px 20px 10px;
-}
-@media (min-width: 768px) {
-  footer #footer-content h3 {
-    font-size: 1rem;
-    margin: 10px 10px 20px 10px;
-    text-align: left;
-    padding: 30px 0 0 30px;
-  }
-}
-@media (min-width: 1025px) {
-  footer #footer-content h3 {
-    font-size: 1.2rem;
-    margin: 30px 10px 0px 20px;
-  }
-}
-footer #footer-content h4 {
-  color: white;
-  font-family: Montserrat;
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin: 5px 10px 20px 10px;
-}
-footer #footer-content span {
-  font-weight: bold;
-}
-footer #footer-content ul {
-  display: flex;
-  font-size: 1rem;
-  grid-area: icons;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  footer #footer-content ul {
-    justify-content: flex-end;
-    padding: 30px 30px 0 0px;
-    font-size: 1rem;
-  }
-}
-@media (min-width: 1025px) {
-  footer #footer-content ul {
-    font-size: 1.4rem;
-    margin: 50px 10px 0px 40px;
-    padding: 0px 0px 0 0px;
-  }
-}
-footer #footer-content ul li {
-  margin: 0px 10px;
-}
-footer #footer-content ul li a:link,
-footer #footer-content ul li a:visited {
-  color: #FFE103;
-  font-size: 1.875rem;
-  transition: 0.25s;
-}
-footer #footer-content ul li a:hover,
-footer #footer-content ul li a:active {
-  color: #ACACAC;
-}
+    grid-area: footer; }
+    @media (min-width: 768px) {
+      footer #footer-content {
+        display: grid;
+        grid-template-areas: "band band" "header icons";
+        grid-template-columns: 60% auto;
+        grid-template-rows: repeat(2/1fr); } }
+    footer #footer-content > div {
+      background-color: black;
+      grid-area: band;
+      height: 10vh;
+      width: 100%; }
+    footer #footer-content h3 {
+      padding-top: 50px;
+      color: white;
+      font-family: Montserrat;
+      font-size: 1.25rem;
+      font-weight: 300;
+      grid-area: header;
+      margin: 20px 10px 20px 10px; }
+      @media (min-width: 768px) {
+        footer #footer-content h3 {
+          font-size: 1rem;
+          margin: 10px 10px 20px 10px;
+          text-align: left;
+          padding: 30px 0 0 30px; } }
+      @media (min-width: 1025px) {
+        footer #footer-content h3 {
+          font-size: 1.2rem;
+          margin: 30px 10px 0px 20px; } }
+    footer #footer-content h4 {
+      color: white;
+      font-family: Montserrat;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin: 5px 10px 20px 10px; }
+    footer #footer-content span {
+      font-weight: bold; }
+    footer #footer-content ul {
+      display: flex;
+      font-size: 1rem;
+      grid-area: icons;
+      justify-content: center; }
+      @media (min-width: 768px) {
+        footer #footer-content ul {
+          justify-content: flex-end;
+          padding: 30px 30px 0 0px;
+          font-size: 1rem; } }
+      @media (min-width: 1025px) {
+        footer #footer-content ul {
+          font-size: 1.4rem;
+          margin: 50px 10px 0px 40px;
+          padding: 0px 0px 0 0px; } }
+      footer #footer-content ul li {
+        margin: 0px 10px; }
+        footer #footer-content ul li a:link,
+        footer #footer-content ul li a:visited {
+          color: #FFE103;
+          font-size: 1.875rem;
+          transition: 0.25s; }
+        footer #footer-content ul li a:hover,
+        footer #footer-content ul li a:active {
+          color: #ACACAC; }
 
 /* =============
    index
@@ -559,319 +479,243 @@ footer #footer-content ul li a:active {
 #index {
   display: grid;
   /* =============
-     artist section
-  ============= */
-}
-#index #title {
-  font-family: "Cabin Sketch", sans-serif;
-  text-align: center;
-  margin: 5% 0 0 0;
-  position: absolute;
-  color: white;
-  font-size: 2.1875rem;
-  text-align: center;
-  width: 100%;
-}
-@media (min-width: 768px) {
+   artist section
+============= */ }
   #index #title {
-    font-size: 2.8125rem;
-    margin-top: 70px;
-  }
-}
-@media (min-width: 1025px) {
-  #index #title {
-    font-size: 3.125rem;
-    margin-top: 90px;
-  }
-}
-@media (min-width: 1440px) {
-  #index #title {
-    margin-top: 100px;
-  }
-}
-#index #index-hero {
-  background-image: url("../img/hero.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-}
-@media (min-width: 768px) {
+    font-family: 'Cabin Sketch', sans-serif;
+    text-align: center;
+    margin: 5% 0 0 0;
+    position: absolute;
+    color: white;
+    font-size: 2.1875rem;
+    text-align: center;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #index #title {
+        font-size: 2.8125rem;
+        margin-top: 70px; } }
+    @media (min-width: 1025px) {
+      #index #title {
+        font-size: 3.125rem;
+        margin-top: 90px; } }
+    @media (min-width: 1440px) {
+      #index #title {
+        margin-top: 100px; } }
   #index #index-hero {
-    height: 900px;
-  }
-}
-#index #index-content {
-  background-color: #ACACAC;
-  display: grid;
-  grid-template-columns: 5% auto 5%;
-  grid-template-areas: ". content .";
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: black;
-}
-@media (min-width: 1025px) {
+    background-image: url("../img/hero.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; }
+    @media (min-width: 768px) {
+      #index #index-hero {
+        height: 900px; } }
   #index #index-content {
-    grid-template-columns: auto 800px auto;
-  }
-}
-#index #index-content > div {
-  padding-top: 20px;
-  grid-area: content;
-}
-#index #index-content > div h1 {
-  text-align: center;
-  font-size: 1.625rem;
-}
-@media (min-width: 768px) {
-  #index #index-content > div h1 {
-    font-size: 1.875rem;
-  }
-}
-#index #index-content > div p {
-  text-align: center;
-  font-size: 1.125rem;
-}
-@media (min-width: 768px) {
-  #index #index-content > div p {
-    font-size: 1.25rem;
-  }
-}
-#index #index-content > div #button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  color: black;
-}
-#index #index-content > div #button h2 {
-  display: none;
-}
-#index #index-content > div #button a {
-  background-color: #FFE103;
-  color: #000;
-  border-radius: 16px;
-  font-weight: 400;
-  font-size: 1.125rem;
-  padding: 13px 20px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  font-family: "Montserrat", sans-serif;
-}
-@media (min-width: 768px) {
-  #index #index-content > div #button a {
-    font-size: 1.25rem;
-    padding: 14px 35px;
-  }
-}
-@media (min-width: 1025px) {
-  #index #index-content > div #button a {
-    font-size: 1.375rem;
-    padding: 16px 40px;
-  }
-}
-#index #index-content > div #button a:hover {
-  background-color: #ACACAC;
-}
-#index #artists #artists-headline {
-  background-color: #E4E4E4;
-  color: black;
-  display: grid;
-  grid-template-columns: 80% auto;
-  grid-template-areas: "content" "arrow";
-  margin-bottom: 50px;
-  padding: 50px 0 50px 100px;
-}
-@media (min-width: 768px) {
+    background-color: #ACACAC;
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    grid-template-areas: ". content .";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black; }
+    @media (min-width: 1025px) {
+      #index #index-content {
+        grid-template-columns: auto 800px auto; } }
+    #index #index-content #spiral-animation {
+      cursor: pointer; }
+    #index #index-content > div {
+      padding-top: 20px;
+      grid-area: content; }
+      #index #index-content > div h1 {
+        text-align: center;
+        font-size: 1.625rem; }
+        @media (min-width: 768px) {
+          #index #index-content > div h1 {
+            font-size: 1.875rem; } }
+      #index #index-content > div p {
+        text-align: center;
+        font-size: 1.125rem; }
+        @media (min-width: 768px) {
+          #index #index-content > div p {
+            font-size: 1.25rem; } }
+      #index #index-content > div #button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: black; }
+        #index #index-content > div #button h2 {
+          display: none; }
+        #index #index-content > div #button a {
+          background-color: #FFE103;
+          color: #000;
+          border-radius: 16px;
+          font-weight: 400;
+          font-size: 1.125rem;
+          padding: 13px 20px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 25%;
+          font-family: 'Montserrat', sans-serif; }
+          @media (min-width: 768px) {
+            #index #index-content > div #button a {
+              font-size: 1.25rem;
+              padding: 14px 35px; } }
+          @media (min-width: 1025px) {
+            #index #index-content > div #button a {
+              font-size: 1.375rem;
+              padding: 16px 40px; } }
+          #index #index-content > div #button a:hover {
+            background-color: #ACACAC; }
   #index #artists #artists-headline {
-    grid-template-areas: "content arrow";
-  }
-}
-#index #artists #artists-headline #artist-arrow {
-  grid-area: arrow;
-  display: flex;
-  align-items: center;
-  padding-right: 100%;
-  font-size: 2.5rem;
-  color: #000;
-  justify-content: center;
-}
-#index #artists #artists-headline #artist-headline-text {
-  grid-area: content;
-  text-align: left;
-  padding-left: 0%;
-}
-@media (min-width: 768px) {
-  #index #artists #artists-headline #artist-headline-text {
-    padding-left: 10%;
-  }
-}
-#index #artists #artists-headline #artist-headline-text h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-#index #artists #artists-headline #artist-headline-text h5 {
-  font-size: 1.125rem;
-  font-weight: 400;
-}
-#index #artists-testimonials {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". content .";
-  background-color: white;
-}
-@media (min-width: 1440px) {
+    background-color: #E4E4E4;
+    color: black;
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-areas: "content" "arrow";
+    margin-bottom: 50px;
+    padding: 50px 0 50px 100px; }
+    @media (min-width: 768px) {
+      #index #artists #artists-headline {
+        grid-template-areas: "content arrow"; } }
+    #index #artists #artists-headline #artist-arrow {
+      grid-area: arrow;
+      display: flex;
+      align-items: center;
+      padding-right: 100%;
+      font-size: 2.5rem;
+      color: #000;
+      justify-content: center; }
+    #index #artists #artists-headline #artist-headline-text {
+      grid-area: content;
+      text-align: left;
+      padding-left: 0%; }
+      @media (min-width: 768px) {
+        #index #artists #artists-headline #artist-headline-text {
+          padding-left: 10%; } }
+      #index #artists #artists-headline #artist-headline-text h3 {
+        font-size: 1.5rem;
+        font-weight: 400; }
+      #index #artists #artists-headline #artist-headline-text h5 {
+        font-size: 1.125rem;
+        font-weight: 400; }
   #index #artists-testimonials {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-#index #artists-testimonials ul {
-  grid-area: content;
-  display: grid;
-  grid-template-rows: repeat(3, 1 fr);
-  grid-template-areas: " g1" "g2" "g3";
-  gap: 30px;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul {
-    gap: 60px;
-  }
-}
-#index #artists-testimonials ul li:nth-child(1) {
-  grid-area: g1;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-areas: "img text";
-  }
-}
-#index #artists-testimonials ul li:nth-child(1) img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(1) img {
-    grid-area: img;
-  }
-}
-#index #artists-testimonials ul li:nth-child(1) p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.125rem;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(1) p {
-    grid-area: text;
-    padding: 0 40px;
-  }
-}
-#index #artists-testimonials ul li:nth-child(2) {
-  grid-area: g2;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(2) {
-    display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-areas: "text img";
-  }
-}
-#index #artists-testimonials ul li:nth-child(2) img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(2) img {
-    grid-area: img;
-  }
-}
-#index #artists-testimonials ul li:nth-child(2) p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.125rem;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(2) p {
-    grid-area: text;
-    padding: 0 40px;
-  }
-}
-#index #artists-testimonials ul li:nth-child(3) {
-  grid-area: g3;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(3) {
-    display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-areas: "img text";
-  }
-}
-#index #artists-testimonials ul li:nth-child(3) img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(3) img {
-    grid-area: img;
-  }
-}
-#index #artists-testimonials ul li:nth-child(3) p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.125rem;
-}
-@media (min-width: 768px) {
-  #index #artists-testimonials ul li:nth-child(3) p {
-    grid-area: text;
-    padding: 0 40px;
-  }
-}
-
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". content .";
+    background-color: white; }
+    @media (min-width: 1440px) {
+      #index #artists-testimonials {
+        grid-template-columns: auto 1200px auto; } }
+    #index #artists-testimonials ul {
+      grid-area: content;
+      display: grid;
+      grid-template-rows: repeat(3, 1 fr);
+      grid-template-areas: " g1" "g2" "g3";
+      gap: 30px; }
+      @media (min-width: 768px) {
+        #index #artists-testimonials ul {
+          gap: 60px; } }
+      #index #artists-testimonials ul li:nth-child(1) {
+        grid-area: g1; }
+        @media (min-width: 768px) {
+          #index #artists-testimonials ul li:nth-child(1) {
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "img text"; } }
+        #index #artists-testimonials ul li:nth-child(1) img {
+          width: 100%; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(1) img {
+              grid-area: img; } }
+        #index #artists-testimonials ul li:nth-child(1) p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.125rem; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(1) p {
+              grid-area: text;
+              padding: 0 40px; } }
+      #index #artists-testimonials ul li:nth-child(2) {
+        grid-area: g2; }
+        @media (min-width: 768px) {
+          #index #artists-testimonials ul li:nth-child(2) {
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "text img"; } }
+        #index #artists-testimonials ul li:nth-child(2) img {
+          width: 100%; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(2) img {
+              grid-area: img; } }
+        #index #artists-testimonials ul li:nth-child(2) p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.125rem; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(2) p {
+              grid-area: text;
+              padding: 0 40px; } }
+      #index #artists-testimonials ul li:nth-child(3) {
+        grid-area: g3; }
+        @media (min-width: 768px) {
+          #index #artists-testimonials ul li:nth-child(3) {
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "img text"; } }
+        #index #artists-testimonials ul li:nth-child(3) img {
+          width: 100%; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(3) img {
+              grid-area: img; } }
+        #index #artists-testimonials ul li:nth-child(3) p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.125rem; }
+          @media (min-width: 768px) {
+            #index #artists-testimonials ul li:nth-child(3) p {
+              grid-area: text;
+              padding: 0 40px; } }
 /* Start state */
 .animated-modal {
   max-width: 550px;
   border-radius: 4px;
   overflow: hidden;
   transform: translateY(-50px);
-  transition: all 0.7s;
-}
+  transition: all .7s; }
 
 .animated-modal h2,
 .animated-modal p {
   transform: translateY(-50px);
   opacity: 0;
   transition-property: transform, opacity;
-  transition-duration: 0.4s;
-}
+  transition-duration: .4s; }
 
 /* Final state */
 .fancybox-slide--current .animated-modal,
 .fancybox-slide--current .animated-modal h2,
 .fancybox-slide--current .animated-modal p {
   transform: translateY(0);
-  opacity: 1;
-}
+  opacity: 1; }
 
 /* Reveal content with different delays */
 .fancybox-slide--current .animated-modal h2 {
-  transition-delay: 0.1s;
-}
+  transition-delay: .1s; }
 
 .fancybox-slide--current .animated-modal p {
-  transition-delay: 0.3s;
-}
+  transition-delay: .3s; }
 
 /**/
 body {
   background-color: transparent;
-  color: #777;
-}
+  color: #777; }
 
 #spiral-animation {
   width: 100px;
@@ -879,16 +723,13 @@ body {
   background-color: transparent;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #spiral-animation, #spiral-animation a {
-  background-image: none;
-}
+  background-image: none; }
 
 #spiral-animation a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 #yellow-guy {
   width: 120px;
@@ -896,25 +737,17 @@ body {
   background-color: transparent;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  #yellow-guy {
-    margin: -470px auto 20px auto;
-    width: 200px;
-  }
-}
-@media (min-width: 1025px) {
-  #yellow-guy {
-    margin: -470px auto 20px auto;
-    width: 200px;
-  }
-}
-
+  justify-content: center; }
+  @media (min-width: 768px) {
+    #yellow-guy {
+      margin: -470px auto 20px auto;
+      width: 200px; } }
+  @media (min-width: 1025px) {
+    #yellow-guy {
+      margin: -470px auto 20px auto;
+      width: 200px; } }
 #yellow-guy, #yellow-guy a {
-  background-image: none;
-}
+  background-image: none; }
 
 #yellow-guy a {
-  background-color: transparent;
-}
+  background-color: transparent; }

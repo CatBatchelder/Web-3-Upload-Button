@@ -10,9 +10,9 @@ svgGuyTimeLine.from(".yellow-guy",{duration:5, drawSVG:"0%", opacity: 0});
 
 ScrollTrigger.create({
     animation: svgGuyTimeLine,
-    toggleActions: "play complete complete complete",
+    toggleActions: "play none none none",
     trigger: ".yellow-guy",
-    start: "top 60%",
+    start: "top 50%",
     //end: "bottom 40%",
     // markers: true, 
     id: "card",
